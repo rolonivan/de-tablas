@@ -43,7 +43,7 @@ font-family: castle ;
     align-items: center;
     gap: 1.25rem;
     padding-right: 1.25rem;
-    
+    align-content: center;
 }
 .navbar li a{
     text-decoration: none;
@@ -58,7 +58,7 @@ main{
     background-position: center;
     background-size: cover;
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
 }
 
 
@@ -68,7 +68,7 @@ main h2{
 main p{
     text-align: center;
 }
-form{
+/* form{
     width: 100%;
     height: 37.5rem; 
     display: flex;
@@ -85,7 +85,7 @@ form h2{
 }
 main fieldset{
     text-align: center;
-}
+}   */
 .sectionPrincipal {
         background-image: url(../assets/img/jeremy-bishop-_CFv3bntQlQ-unsplash.jpg);
         background-position: center;
@@ -156,22 +156,49 @@ main fieldset{
     gap: 1.25rem;
     padding-left: 6.25rem;
 }
-.tablasContainer{
+/* .tablasContainer{
     display: flex;
     flex-flow: row wrap ;
     width: 100%;
-    /* justify-content: center;
-    align-items: center; */
+    
     
     gap: 1.25rem;
     
     
+} */
+.tablasContainer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: 50% 50% ;
+    grid-template-areas:
+    "tablas1 tablas5 tablas3"
+    "tablas2 tablas5 tablas4" 
+    ;
+    justify-content: center;
 }
+.tablas1{
+    grid-area: tablas1;
+}
+.tablas2{
+    grid-area: tablas2;
+}
+tablas3{
+    grid-area: tablas3;
+}
+.tablas4{
+    grid-area: tablas4;
+}
+.tablas5{
+    grid-area: tablas5;
+}
+
 .tablasContainer article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    /* width: 30%; */
+    justify-content: center;
 }
 .tablas{
 
@@ -194,7 +221,10 @@ main fieldset{
     color: black;
     font-family: voyage ;
 }
-
+.bootsTrap{
+    height: 37.5rem; 
+    gap: .3125rem;
+}
 footer{
     display: flex;
     background-size: cover;
