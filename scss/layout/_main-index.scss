@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: $color-oscuro;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+
+}
+.sectionPrincipal {
+    background-image: url(../assets/img/jeremy-bishop-_CFv3bntQlQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 62.5rem;
+}
+.sectionSecundaria{
+    text-align: center;
+    font-size:1.875rem ;
+    h2{
+        a{
+            text-decoration: none;
+            color: black;
+            font-family: voyage ;
+        }
+    }
+}
+.cajas{
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    }

@@ -1,0 +1,15 @@
+.trip{
+    width: 18.75rem;
+    height: 18.75rem;
+    border-radius: 10%;
+}
+
+.surftripContainer{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    
+    justify-content: space-evenly;
+    gap: 1.25rem;
+    padding-left: 6.25rem;
+}

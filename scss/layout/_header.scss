@@ -1,0 +1,33 @@
+header{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+    div{
+        h1{
+            color: $color-oscuro;
+            background-color:$color-claro;
+            letter-spacing: .3125rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            width: 12.5rem;
+            height: 4.0625rem;
+            font-family: castle ;
+            margin-bottom: 0;
+            }
+        }
+    
+    }
+    .navbar{
+        @include flex(row,flex-end,center,1.25rem);
+        
+        list-style: none;
+        padding-right: 1.25rem;
+        align-content: center;
+        li{
+            a{
+                
+                text-decoration: none;
+                font-size: 1.25rem; ;
+                
+            }
+        }
+    }

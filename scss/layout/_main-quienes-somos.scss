@@ -1,0 +1,38 @@
+.sectionNos{
+    display: flex;
+    gap: .625rem;
+    padding: .625rem;
+}
+
+.nosText{
+    @include flex(column,space-evenly,center, none);
+    
+    
+    width: 90%;
+    padding-left: 1.25rem;
+    h2{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.5625rem;
+    }
+
+}
+
+.nosContainer{
+    @include flex(row, space-around, center, .625rem);
+    
+    justify-items: center;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    gap: .625rem;
+    
+    
+}
+.nos{
+    width: 18.75rem;
+    height: 18.75rem;
+    border-radius: 10%;
+    
+}

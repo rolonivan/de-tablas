@@ -1,0 +1,31 @@
+.tablasContainer{
+    width: 100%;
+    @include grid(repeat(3,33%),50% 50%, center, none, "tablas1 tablas5 tablas3""tablas2 tablas5 tablas4");
+    article{
+        @include flex(column, center, center, none);
+    }
+}
+.tablas1{
+    grid-area: tablas1;
+}
+.tablas2{
+    grid-area: tablas2;
+}
+tablas3{
+    grid-area: tablas3;
+}
+.tablas4{
+    grid-area: tablas4;
+}
+.tablas5{
+    grid-area: tablas5;
+}
+
+.tablas{
+
+    
+    height: 12.5rem;
+    border-radius: 10%;
+    
+
+}

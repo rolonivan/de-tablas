@@ -1,0 +1,15 @@
+@media (max-width:768px){
+main{
+    @include flex(column, center, center, none);
+}
+
+.navbar{
+    
+    justify-content: flex-start;
+    gap: .4375rem;
+}
+
+.surftripContainer {
+    padding-left: 0;
+}
+}

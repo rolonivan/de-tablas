@@ -1,0 +1,32 @@
+//  variables mixin y funciones
+@import "./base/reset";
+
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+//  todo lo correspondiente al condigo 
+
+@import "./base/typo";
+
+
+@import "./layout/header";
+
+@import "./layout/main-index";
+
+@import "./layout/main-quienes-somos";
+
+@import "./layout/main-surftrip";
+
+@import "./layout/main-que-tabla-elegir";
+
+@import "./layout/main-contacto";
+
+
+@import "./layout/footer.scss";
+
+// todo lo correspondiente a mediaQ
+
+@import "./layout/mediaQ/media768";
+
+@import "./layout/mediaQ/media425";
+

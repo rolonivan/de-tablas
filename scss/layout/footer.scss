@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    background-size: cover;
+    width: 100%;
+
+    justify-content: space-between;
+    background-color: $color-aqua;
+    align-items: center;
+    div{
+        display: flex;
+        align-items: center;
+        gap: .625rem;
+        padding-left: .625rem;
+
+    }
+}
